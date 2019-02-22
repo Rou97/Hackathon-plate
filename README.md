@@ -27,7 +27,7 @@ Our content outline will first our main objective and added value. Second, we wi
 The idea was to get our customers to enter in contact with us. Therefore, we only display a simple a form to enter their email and get in touch with us.
 
 
-UX wireframes
+UX low-fidelity wireframes
 ![alt First Wireframes](https://github.com/Rou97/Hackathon-plate/blob/master/assets/UX-wireframes.jpg)
 
 Web wireframes
@@ -35,6 +35,10 @@ Web wireframes
 
 Kanban Board
 ![alt Second Wireframes](https://github.com/Rou97/Hackathon-plate/blob/master/assets/img/20190222_105613.jpg)
+
+UX high-fidelity wireframes
+![alt Second Wireframes](https://github.com/Rou97/Hackathon-plate/blob/master/assets/zeppelin-landing-wireframe.png)
+
 
 
 
