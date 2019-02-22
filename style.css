@@ -58,21 +58,54 @@ nav .buttons {
 /* ---- main ---- */
 
 #main-section {
-  background-color: orange;
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  
+  justify-content: space-between;
 }
 
 .zeppelin-image {
-  background-color: aqua;
+  width: 50%;
 }
+
+
 
 .form {
-  background-color: blue;
+  width: 40%;
+  margin-right: 6rem; 
 }
 
-.form form {
-  background-color: yellow;
+.form h1 {
+  font-family: 'Nunito', sans-serif;
+  color: #457DE7;
+  line-height: 45px;
+  font-size: 36px;
+}
+
+.form p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  color: #404040;
+  line-height: 29px;
+}
+
+#email {
+  width: 210px;
+  height: 46px;
+  background-color: #F7F7F7;
+  border-radius: 4px 0px 0px 4px;
+  border: solid 1px #EEEEEE;
+}
+
+#button {
+  width: 170px;
+  height: 46px;
+  border-radius: 0px 4px 4px 0px;
+  background-color:  #FFC65B;
+  border: solid 1px #ECB44A;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #404040;
 }
 
 #benefit-section {
