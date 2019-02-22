@@ -10,10 +10,13 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 
 /* ---- typography ---- */
+
 
 
 /* ---- layout ---- */
@@ -37,8 +40,116 @@ body {
 
 /* ---- header ---- */
 
-/* ---- footer ---- */
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  justify-content: space-between;
+}
 
+nav .logo {
+  background-color: blue;
+}
+
+nav .buttons {
+  background-color: yellow;
+}
+
+/* ---- main ---- */
+
+#main-section {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+}
+
+.zeppelin-image {
+  background-color: aqua;
+}
+
+.form {
+  background-color: blue;
+}
+
+.form form {
+  background-color: yellow;
+}
+
+#benefit-section {
+  background-color: red;
+}
+
+.mobile-image {
+  background-color: blue;
+}
+
+.benefit-wrap {
+  background-color: aqua;
+}
+
+.benefit-container {
+  background-color: magenta;
+  display: flex;
+  flex-direction: row;
+}
+
+.benefit-first {
+  background-color: brown;
+}
+.benefit-second {
+  background-color: blue;
+}
+.benefit-third {
+  background-color: red;
+}
+
+h2 {
+  margin: 0;
+}
+
+#feedback-section {
+  background-color: yellow;
+}
+
+.feedback-wrap {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feedback-container1 {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+.feedback-first-text {
+  background-color: magenta;
+}
+
+.feedback-container2 {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+}
+
+.feedback-second-text {
+  background-color: yellow;
+}
+
+
+/* ---- footer ---- */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: blueviolet
+}
+
+footer p {
+  background-color: red;
+}
 /* ---- components ---- */
 
 /* ---- css shame ---- */
