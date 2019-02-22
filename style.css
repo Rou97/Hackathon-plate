@@ -76,15 +76,37 @@ nav .buttons {
 }
 
 #benefit-section {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
 }
 
-.mobile-image {
-  background-color: blue;
+.benefit-section-photo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: linear-gradient(to right, #95CEF0, #5EA5F0);
+}
+
+.benefit-section-paragraph{
+  text-align: center;
+}
+
+.benefit-section-paragraph h2{
+  font-style: 'Nunito Bold';
+  font-size: 26px;
+  color: #FFFFFF;
+  Line-height: 37px;
+}
+
+.benefit-section-paragraph p{
+  font-family: 'Roboto Regular';
+  font-size: 17px;
+  color: #FFFFFF;
+  Line-height: 26px;
 }
 
 .benefit-wrap {
-  background-color: aqua;
+
 }
 
 .benefit-container {
@@ -93,14 +115,21 @@ nav .buttons {
   flex-direction: row;
 }
 
-.benefit-first {
-  background-color: brown;
+.benefit-container h3{
+  font-family: 'Nunito Bold';
+  font-size: 20px;
+  color: #404040;
+  text-align: center;
 }
-.benefit-second {
-  background-color: blue;
-}
-.benefit-third {
-  background-color: red;
+
+.benefit-container p{
+  font-family: 'Roboto Regular';
+  font-size: 17px;
+  color: #404040;
+  Text-align: center;
+  Line-height: 26px;
+  text-align: center;
+  
 }
 
 h2 {
