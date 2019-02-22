@@ -67,8 +67,6 @@ nav .buttons {
   width: 50%;
 }
 
-
-
 .form {
   width: 40%;
   margin-right: 6rem; 
@@ -86,6 +84,11 @@ nav .buttons {
   font-size: 17px;
   color: #404040;
   line-height: 29px;
+}
+
+
+label{
+  display: inline-block;
 }
 
 #email {
