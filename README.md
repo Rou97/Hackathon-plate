@@ -1,12 +1,6 @@
-# Hackathon-plate 2019
+# Postopia
 
-> Internal Ironhack Barcelona Hackathon (UX/UI + WebDev)
-
-## How to use
-
-- Fork to your github account
-- Use this file to describe your project, plan, take notes, todos, etc...
-- Have fun
+##Process
 
 ###Ideation
 
