@@ -221,11 +221,15 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: blueviolet
+  background-color: #404040;
+  padding: 2rem 0;
 }
 
 footer p {
-  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #969696;
 }
 /* ---- components ---- */
 
