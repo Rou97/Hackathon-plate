@@ -43,16 +43,33 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  background-color: red;
-  justify-content: space-between;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 2rem 3rem;
+  background-color: #F7F7F7;
 }
 
 nav .logo {
-  background-color: blue;
 }
 
-nav .buttons {
-  background-color: yellow;
+nav .buttons a {
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+  color: #404040;
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+nav .buttons a:last-child {
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+  color: #FFC65B;
+  margin-right: 1rem; 
+  border: 2px solid #FFC65B;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
 }
 
 /* ---- main ---- */
@@ -76,7 +93,8 @@ nav .buttons {
 }
 
 #benefit-section {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
 }
 
 .mobile-image {
@@ -84,23 +102,22 @@ nav .buttons {
 }
 
 .benefit-wrap {
-  background-color: aqua;
+  width: 80%;
+  margin: 2rem auto;
+
 }
 
 .benefit-container {
-  background-color: magenta;
   display: flex;
   flex-direction: row;
 }
 
-.benefit-first {
-  background-color: brown;
-}
-.benefit-second {
-  background-color: blue;
-}
-.benefit-third {
-  background-color: red;
+.benefit {
+  text-align: center;
+  margin-right: 2rem;
+  font-size: 17px;
+  color: #404040;
+
 }
 
 h2 {
