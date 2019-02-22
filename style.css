@@ -197,6 +197,10 @@ main {
   text-align: center;
 }
 
+.benefit h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
 .benefit-container p{
   font-family: 'Roboto Regular';
   font-size: 17px;
@@ -205,6 +209,10 @@ main {
   Line-height: 26px;
   text-align: center;
   
+}
+
+.benefit img {
+  margin-bottom: 1rem;
 }
 
 .benefit p {
