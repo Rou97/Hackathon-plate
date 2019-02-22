@@ -141,35 +141,112 @@ h2 {
 }
 
 #feedback-section {
-  background-color: yellow;
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#feedback-section h2 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: #457DE7;
+  font-size: 24px;
+  line-height: 37px;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
 }
 
 .feedback-wrap {
-  background-color: green;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .feedback-container1 {
-  background-color: blue;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 0.5rem;
+  padding: 2rem;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.feedback-container1 blockquote {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #404040;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.feedback-profile {
   display: flex;
   flex-direction: row;
 }
 
-.feedback-first-text {
-  background-color: magenta;
+.feedback-profile img {
+  height: 7rem;
+  width: 7rem;
+}
+
+.feedback-text {
+  margin-left: 1rem;
+  align-self: center;
+}
+
+.feedback-text > p, h3 {
+  margin: 0;
+}
+
+.feedback-text h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #457DE7;
+}
+
+.feedback-text .role {
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: italic;
+  color: #457DE7;
+}
+
+.feedback-text .city {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #404040;
 }
 
 .feedback-container2 {
-  background-color: aqua;
+  background-color: #fff;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 0.5rem;
+  padding: 2rem;
+  width: 40%;
+  border-radius: 5px;
+
 }
 
-.feedback-second-text {
-  background-color: yellow;
-}
+.feedback-container2 blockquote {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #404040;
+  margin: 0;
+  padding-bottom: 1rem;
+ }
 
 
 /* ---- footer ---- */
@@ -177,11 +254,15 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: blueviolet
+  background-color: #404040;
+  padding: 2rem 0;
 }
 
 footer p {
-  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #969696;
 }
 /* ---- components ---- */
 
